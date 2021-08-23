@@ -1,7 +1,7 @@
-# react-a11y-select
+# react-a11y-select-alt
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
+<!-- [![Travis][build-badge]][build]
+[![npm package][npm-badge]][npm] -->
 
 A customizable select/dropdown react component with a focus on accessibility (a11y) and ease of use for developers. The goals of this project are:
 * Simplicity. The component should be as simple to use as its native HTML counterpart
@@ -9,6 +9,9 @@ A customizable select/dropdown react component with a focus on accessibility (a1
 * Minimal styling.
 
 Note: this project isn't associated with the [https://github.com/reactjs/react-a11y](react-a11y) package/project - it's an unfortunate naming collision. (v_v)
+
+Note 2: This project IS ASSOCIATED with the [https://www.npmjs.com/package/react-a11y-select](react-a11y-select) package/project. 
+It is an extension with some improvements in the creation of select and option objects.
 
 ## Live Demo
 http://mikedesjardins.net/react-a11y-select/
@@ -83,9 +86,9 @@ I haven't personally used either of the above libraries in a project (yet), but 
 ## License
 MIT
 
-[build-badge]: https://img.shields.io/travis/mdesjardins/react-a11y-select/master.png?style=flat-square
+<!-- [build-badge]: https://img.shields.io/travis/mdesjardins/react-a11y-select/master.png?style=flat-square
 [build]: https://travis-ci.org/mdesjardins/react-a11y-select
 
 [npm-badge]: https://img.shields.io/npm/v/react-a11y-select.png?style=flat-square
-[npm]: https://www.npmjs.org/package/react-a11y-select
+[npm]: https://www.npmjs.org/package/react-a11y-select -->
 
