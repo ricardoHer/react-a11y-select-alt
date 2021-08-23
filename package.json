@@ -1,7 +1,7 @@
 {
-  "name": "react-a11y-select",
-  "version": "1.0.4",
-  "description": "A web-accessible React select/menu/dropdown component",
+  "name": "react-a11y-select-alt",
+  "version": "0.0.1",
+  "description": "A web-accessible React select/menu/dropdown component. This project is a alternative from react-a11y-select, by mdesjardins.",
   "keywords": [
     "react-component"
   ],
@@ -49,6 +49,6 @@
   "author": "Mike Desjardins",
   "homepage": "http://www.mikedesjardins.net/react-a11y-select",
   "license": "MIT",
-  "repository": "https://github.com/mdesjardins/react-a11y-select",
-  "bugs": "https://github.com/mdesjardins/react-a11y-select/issues"
+  "repository": "https://github.com/ricardoHer/react-a11y-select-alt",
+  "bugs": "https://github.com/ricardoHer/react-a11y-select-alt/issues"
 }
