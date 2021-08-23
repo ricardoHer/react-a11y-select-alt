@@ -4,15 +4,31 @@ import React from 'react'
 // component for wrapping Options
 // TODO refactor me I'm hideous!
 export const OptionWrapper = (props) => {
-  const { onMouseOver, onClick, onOptionWrapperRef, selectedKey, highlightedKey, children,
-          optionKey, label, value, disabled, highlightedRef, ...others } = props
+  const { 
+    onMouseOver,
+    onClick, 
+    onOptionWrapperRef, 
+    selectedKey, 
+    highlightedKey, 
+    children,
+    optionKey, 
+    label, 
+    value, 
+    disabled, 
+    highlightedRef, 
+    cssClassName, 
+    customId,
+    ...others } = props
+
   const highlighted = optionKey === highlightedKey
   const selected = optionKey === selectedKey
   const ariaLabel = label || value
+  const optionCssClassName = 'ReactA11ySelect__ul__li ' + cssClassName || ' '
+  const id = customId || `react-a11y-option-${optionKey}`
   return (
     <li
-      id={`react-a11y-option-${optionKey}`}
-      className="ReactA11ySelect__ul__li"
+      id={id}
+      className={optionCssClassName}
       tabIndex={highlighted ? "0" : "-1"}
       role="menuitemradio"
       aria-checked={selected ? true : undefined}
@@ -25,7 +41,7 @@ export const OptionWrapper = (props) => {
       {...others}
     >
       {selected &&
-        <span className="ReactA11ySelect__ul__li__selected-indicator" aria-hidden="true"/>}
+        <span className="ReactA11ySelect__ul__li__selected-indicator" aria-hidden="true" />}
       {children}
     </li>
   )

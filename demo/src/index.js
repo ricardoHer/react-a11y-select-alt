@@ -28,8 +28,8 @@ class Demo extends Component {
             controls as a native component will.
           </p>
           <p>
-            See source at <a href="https://www.github.com/mdesjardins/react-a11y-select">
-              https://www.github.com/mdesjardins/react-a11y-select</a>.
+            See source at <a href="https://github.com/ricardoHer/react-a11y-select-alt">
+            https://github.com/ricardoHer/react-a11y-select-alt</a>.
           </p>
         </div>
         <div className="container">
@@ -37,19 +37,19 @@ class Demo extends Component {
             <h2>Live Demo</h2>
             <form>
               <Select label="Test method" onChange={this.handleSelectChange} initialValue={selection} value={selection}>
-                <Option value="apple">
+                <Option value="apple" cssClassName="test_Class_Name" customId="test_id_1">
                   <img src="apple.png" alt="" />
                   Apple
                 </Option>
-                <Option value="cherry">
+                <Option value="cherry" >
                   <img src="cherry.png" alt="" />
                   Cherry
                 </Option>
-                <Option value="grape">
+                <Option value="grape" >
                   <img src="grape.png" alt="" />
                   Grape
                 </Option>
-                <Option value="lemon">
+                <Option value="lemon" >
                   <img src="lemon.png" alt="" />
                   Lemon
                 </Option>
@@ -57,7 +57,7 @@ class Demo extends Component {
                   <img src="orange.png" alt="" />
                   Orange
                 </Option>
-                <Option value="peach" disabled>
+                <Option value="peach" disabled >
                   <img src="peach.png" alt="" />
                   Peach
                 </Option>

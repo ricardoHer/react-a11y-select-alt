@@ -218,6 +218,8 @@ export default class Select extends Component {
         onMouseOver={(e) => this.handleOptionHover(e, option.key)}
         onClick={(e) => this.handleOptionSelect(e, option.key)}
         onKeyDown={(e) => this.handleKeyDown(e)}
+        cssClassName={option.props.cssClassName}
+        customId={option.props.customId}
       >
         {option}
       </OptionWrapper>
