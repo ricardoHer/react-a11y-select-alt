@@ -1,6 +1,6 @@
 {
   "name": "react-a11y-select-alt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A web-accessible React select/menu/dropdown component. This project is a alternative from react-a11y-select, by mdesjardins.",
   "keywords": [
     "react-component"
