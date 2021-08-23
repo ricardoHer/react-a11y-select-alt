@@ -23,7 +23,7 @@ export const OptionWrapper = (props) => {
   const highlighted = optionKey === highlightedKey
   const selected = optionKey === selectedKey
   const ariaLabel = label || value
-  const optionCssClassName = 'ReactA11ySelect__ul__li ' + cssClassName || ' '
+  const optionCssClassName = `ReactA11ySelect__ul__li ${cssClassName || ''}`
   const id = customId || `react-a11y-option-${optionKey}`
   return (
     <li
