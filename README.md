@@ -16,7 +16,7 @@ http://mikedesjardins.net/react-a11y-select/
 ## Installation
 ### via npm
 ```
-npm install react-a11y-select
+npm install react-a11y-select-alt
 ```
 
 ## Usage
@@ -57,6 +57,8 @@ The following properties are available on the `<Option>` component:
 * `value` - The value associated with the Option.
 * `label` - An ARIA label that assisted technologies can use in place to interpret the content of the option. Defaults to the value.
 * `disabled` - If present, sets a disabled class and ignores onClick and onMouseOver events.
+* `cssClassName` - If present, will concat with de default class of options.
+* `customId` - If present, will change the id option. 
 
 ## This is very much a work-in-progress
 There's still a lot more to do on this project and most of it is in flux. It needs more tests, more features, more everything. Even when it's finished, it will probably be most valuable as a "demonstration" component to serve as inspiration for your own work. The props and API are subject to change. Here's a list of my TODOs:
